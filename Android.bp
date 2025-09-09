@@ -17716,6 +17716,7 @@ cc_prebuilt_library_shared {
                 "libcomutils",
                 "liblog",
                 "libsignal",
+                "libsink",
                 "libnetd_client",
                 "libc++",
                 "libc",
@@ -17936,7 +17937,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsink-mtk",
+    name: "libsink",
     owner: "samsung",
     strip: {
         none: true,
