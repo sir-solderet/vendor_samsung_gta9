@@ -13,6 +13,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.thermal@2.0-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -65,6 +66,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaedv",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -112,6 +114,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfloatingfeature",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -149,6 +152,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgz_gp_client",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -188,6 +192,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgz_uree",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -225,6 +230,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpower_timer",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -266,6 +272,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecnativefeature",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -307,6 +314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsemnativecarrierfeature",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -350,6 +358,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libteecl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -421,6 +430,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libuuid_vendor",
+    check_elf_files: false,
     stem: "libuuid",
     owner: "samsung",
     strip: {
@@ -455,6 +465,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "APUWareApusysServer",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -491,6 +502,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "APUWareHmpServer",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -523,6 +535,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "APUWareUtilsServer",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -560,6 +573,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLES_meow",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -590,6 +604,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_data",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -614,6 +629,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_qt",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -644,6 +660,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_trace",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -674,6 +691,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLES_mali",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -719,6 +737,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.1-impl-mediatek",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -753,6 +772,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.primary.mediatek",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -805,6 +825,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.r_submix.mediatek",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -835,6 +856,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gatekeeper.mt6789",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -862,6 +884,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gps.default",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -890,6 +913,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hwcomposer.mtk_common",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -959,6 +983,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.6-impl-mediatek",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1012,6 +1037,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.allocator@4.0-impl-mediatek",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1058,6 +1084,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.mapper@4.0-impl-mediatek",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1104,6 +1131,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gralloc.common",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1144,6 +1172,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.atms@1.0-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1177,6 +1206,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.15-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1240,6 +1270,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vulkan.mali",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1266,6 +1297,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.mt6789",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1298,6 +1330,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.1-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1347,6 +1380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.6-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1392,6 +1426,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.1-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1428,6 +1463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony@1.0-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1460,6 +1496,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.gnss@2.0-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1491,6 +1528,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libBSTBeauty",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1517,6 +1555,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libBSTBeautyBokeh",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1543,6 +1582,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libBstBeauty_Impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1574,6 +1614,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_AI_Scene13",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1598,6 +1639,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_AI_Scene14",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1622,6 +1664,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_AI_Scene15",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1646,6 +1689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_AI_Scene7",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1670,6 +1714,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Night_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1694,6 +1739,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Beauty",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1718,6 +1764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Panorama",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1742,6 +1789,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Portrait",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1766,6 +1814,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Preview_AVERAGE",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1790,6 +1839,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Preview_SPOT",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1814,6 +1864,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Video_1080_60",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1838,6 +1889,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901frontsc201cslymipiraw_Scene_BSTBeauty_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1862,6 +1914,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901frontsc201cslymipiraw_Scene_BSTHDR_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1886,6 +1939,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901frontsc201cslymipiraw_Scene_BSTSuperNight_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1910,6 +1964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901frontsc201cslymipiraw_Scene_zoom_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1934,6 +1989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901frontsc201cslymipiraw_Scene_zoom_preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1958,6 +2014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_AI_Scene13",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1982,6 +2039,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_AI_Scene14",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2006,6 +2064,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_AI_Scene15",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2030,6 +2089,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_AI_Scene7",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2054,6 +2114,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Night_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2078,6 +2139,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Beauty",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2102,6 +2164,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Panorama",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2126,6 +2189,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Portrait",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2150,6 +2214,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Preview_AVERAGE",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2174,6 +2239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Preview_SPOT",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2198,6 +2264,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Video_1080_60",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2222,6 +2289,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Scene_BSTBeauty_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2246,6 +2314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Scene_BSTHDR_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2270,6 +2339,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Scene_BSTHDR_preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2294,6 +2364,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Scene_BSTSuperNight_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2318,6 +2389,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Scene_zoom_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2342,6 +2414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Scene_zoom_preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2366,6 +2439,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_AI_Scene13",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2390,6 +2464,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_AI_Scene14",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2414,6 +2489,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_AI_Scene15",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2438,6 +2514,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_AI_Scene7",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2462,6 +2539,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Night_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2486,6 +2564,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Beauty",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2510,6 +2589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Panorama",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2534,6 +2614,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Portrait",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2558,6 +2639,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Preview_AVERAGE",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2582,6 +2664,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Preview_SPOT",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2606,6 +2689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Video_1080_60",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2630,6 +2714,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903frontbf2257xsjmipiraw_Scene_BSTBeauty_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2654,6 +2739,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903frontbf2257xsjmipiraw_Scene_BSTHDR_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2678,6 +2764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903frontbf2257xsjmipiraw_Scene_BSTSuperNight_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2702,6 +2789,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903frontbf2257xsjmipiraw_Scene_zoom_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2726,6 +2814,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903frontbf2257xsjmipiraw_Scene_zoom_preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2750,6 +2839,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Night_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2774,6 +2864,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Video_1080_60",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2798,6 +2889,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_AI_Scene13",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2822,6 +2914,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_AI_Scene14",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2846,6 +2939,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_AI_Scene15",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2870,6 +2964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_AI_Scene7",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2894,6 +2989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Night_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2918,6 +3014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Beauty",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2942,6 +3039,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Panorama",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2966,6 +3064,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Portrait",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2990,6 +3089,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Preview_AVERAGE",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3014,6 +3114,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Preview_SPOT",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3038,6 +3139,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Video_1080_60",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3062,6 +3164,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libJpgEncPipe",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3092,6 +3195,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkSpeechEnh",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3116,6 +3220,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOpenCL",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3143,6 +3248,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSQLiteModule_VER_ALL",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3168,6 +3274,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVendorSemDataProps",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3193,6 +3300,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVendorSemTelephonyProps",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3218,6 +3326,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_iir",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3244,6 +3353,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaal_key",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3268,6 +3378,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libalsautils-v31",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3296,6 +3407,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapu_mdw",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3324,6 +3436,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapu_mdw_batch",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3349,6 +3462,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapusys",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3376,6 +3490,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapusys_edma",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3405,6 +3520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_MFNR",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3430,6 +3546,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarmnn",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3458,6 +3575,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarmnn_ndk.mtk.vndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3483,6 +3601,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudio_param_parser-vnd",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3513,6 +3632,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocompensationfilter_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3540,6 +3660,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocompensationfilterc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3568,6 +3689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocomponentengine_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3599,6 +3721,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocomponentenginec",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3629,6 +3752,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocustparam_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3657,6 +3781,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiodcrflt_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3685,6 +3810,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiofmtconv",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3714,6 +3840,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioloudc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3743,6 +3870,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioprimarydevicehalifclient",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3778,6 +3906,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiotoolkit_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3805,6 +3934,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaurisysdemo",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3832,6 +3962,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbessound_hd_mtk_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3860,6 +3991,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libblisrc32_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3888,6 +4020,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3915,6 +4048,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_mtk_pure",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3942,6 +4076,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbt-vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3968,6 +4103,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbwc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -3995,6 +4131,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.3dnr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4022,6 +4159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.dngop",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4049,6 +4187,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.eis",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4077,6 +4216,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.fdft",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4102,6 +4242,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.fsc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4127,6 +4268,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.gyro",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4154,6 +4296,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.lmv",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4182,6 +4325,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.n3d",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4211,6 +4355,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.platform",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4239,6 +4384,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.utility",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4266,6 +4412,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.warp",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4299,6 +4446,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcares_naptr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4325,6 +4473,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libccci_util",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4350,6 +4499,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcmdl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4375,6 +4525,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcmdl_ndk.mtk.vndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4399,6 +4550,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_c2store",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4435,6 +4587,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_vdec",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4484,6 +4637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_venc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4531,6 +4685,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_vpp_qt_plugin",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4564,6 +4719,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_vpp_rs_plugin",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4597,6 +4753,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcomposer_ext",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4625,6 +4782,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libconnfem",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4651,6 +4809,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcustom_nvram",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4675,6 +4834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvsd_mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4703,6 +4863,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsms_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4733,6 +4894,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libengmode_client",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4761,6 +4923,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfile_op",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4788,6 +4951,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libforkexecwrap",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4814,6 +4978,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libformatter",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4846,6 +5011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libged",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4876,6 +5042,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpu_aux",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4919,6 +5086,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpud",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4958,6 +5126,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloc_extra",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -4991,6 +5160,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloc_metadata",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5021,6 +5191,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloctypes_mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5052,6 +5223,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libheichal",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5082,6 +5254,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhfmanager",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5110,6 +5283,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhwm",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5137,6 +5311,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libifcutils_mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5163,6 +5338,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimagebuffer_wrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5191,6 +5367,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libion_mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5219,6 +5396,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libion_ulit",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5246,6 +5424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpeg-alpha-oal_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5271,6 +5450,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpeg-alpha_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5297,6 +5477,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libksensor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5322,6 +5503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libladder",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5349,6 +5531,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminiui",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5380,6 +5563,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmipc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5406,6 +5590,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmagent",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5437,6 +5622,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmml",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5464,6 +5650,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmpbase",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5485,6 +5672,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmsbc_mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5513,6 +5701,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk-ril",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5557,6 +5746,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkares",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5582,6 +5772,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-aov",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5616,6 +5807,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkconfig",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5641,6 +5833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkconfigutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5666,6 +5859,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5691,6 +5885,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkhardware_legacy",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5716,6 +5911,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkisp_metadata",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5743,6 +5939,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtklimiter_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5771,6 +5968,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtknetcap",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5797,6 +5995,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtknetutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5823,6 +6022,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkproperty",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5848,6 +6048,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkrillog",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5873,6 +6074,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkrilutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5904,6 +6106,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkshifter_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5932,6 +6135,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtksysutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5959,6 +6163,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtktinyxml",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -5983,6 +6188,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6011,6 +6217,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_cic_ci_compiler",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6041,6 +6248,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_cl_compiler",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6070,6 +6278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_mvpu_debuginfo",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6095,6 +6304,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_mvpu_elf",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6119,6 +6329,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_mvpu_utility",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6144,6 +6355,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_vpu_isa",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6169,6 +6381,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_config",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6195,6 +6408,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_engine",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6226,6 +6440,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_engine_pub",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6255,6 +6470,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_pattern",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6284,6 +6500,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_pattern_pub",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6313,6 +6530,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_runtime",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6347,6 +6565,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_runtime_pub",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6381,6 +6600,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpuop_mtk_cv",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6405,6 +6625,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpuop_mtk_nn",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6429,6 +6650,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnpagent",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6465,6 +6687,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnpagent_server",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6501,6 +6724,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnvram",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6530,6 +6754,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnvram_sec",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6556,6 +6781,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnxp_extamp_intf",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6588,6 +6814,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboemcrypto",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6613,6 +6840,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpixelflinger",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6640,6 +6868,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpqframework",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6667,6 +6896,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libratconfig",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6695,6 +6925,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libremosaic_wrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6719,6 +6950,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril_sem",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6767,6 +6999,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librilfusion",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6814,6 +7047,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librpc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6842,6 +7076,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librt_extamp_intf",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6875,6 +7110,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsec-ril",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6923,6 +7159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspeech_enh_lib",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6947,6 +7184,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspeechparser_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -6977,6 +7215,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstorage_otp",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7004,6 +7243,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstork_shared",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7029,6 +7269,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsysenv",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7055,6 +7296,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtensorflowlite",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7081,6 +7323,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtlcWidevineModularDrm",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7112,6 +7355,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrm",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7137,6 +7381,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libudf",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7164,6 +7409,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liburee_meta_drmkeyinstall",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7194,6 +7440,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libviagpsrpc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7222,6 +7469,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvkmanager_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7248,6 +7496,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvkservice",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7276,6 +7525,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwifi-hal-mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7305,6 +7555,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwpfa",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7334,6 +7585,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvhidl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7372,6 +7624,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvdrmengine",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7404,6 +7657,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0901backsc800csly_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7431,6 +7685,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0901backsc800csly_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7487,6 +7742,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0901frontsc201csly_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7514,6 +7770,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0901frontsc201csly_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7549,6 +7806,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0902backhi846st_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7576,6 +7834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0902backhi846st_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7632,6 +7891,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0902frontc2599cxt_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7659,6 +7919,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0902frontc2599cxt_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7695,6 +7956,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0903backc8490xsj_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7722,6 +7984,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0903backc8490xsj_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7778,6 +8041,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0903frontbf2257xsj_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7805,6 +8069,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0903frontbf2257xsj_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7840,6 +8105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0904backsc800csst_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7867,6 +8133,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0904backsc800csst_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7914,6 +8181,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0904backsc820csst_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7941,6 +8209,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "a0904backsc820csst_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -7997,6 +8266,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V1-ndk_platform",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8023,6 +8293,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ae.core",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8054,6 +8325,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ae",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8080,6 +8352,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af.assist",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8109,6 +8382,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af.assist.utils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8139,6 +8413,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af.core",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8164,6 +8439,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8187,6 +8463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.alsflicker",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8211,6 +8488,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.awb.core",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8236,6 +8514,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.custom.ae",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8266,6 +8545,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.flash",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8292,6 +8572,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.flicker",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8316,6 +8597,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.log",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8344,6 +8626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.sensors.color",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8368,6 +8651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.sensors.flicker",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8392,6 +8676,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_E2EHDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8417,6 +8702,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_E2EHDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8442,6 +8728,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Face_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8467,6 +8754,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Flash_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8492,6 +8780,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_HDR_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8517,6 +8806,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_HDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8542,6 +8832,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_HDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8567,6 +8858,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_N3D_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8592,6 +8884,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_N3D_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8617,6 +8910,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_N3D_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8642,6 +8936,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_P1_YUV",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8667,6 +8962,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8692,6 +8988,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Capture_4cell",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8717,6 +9014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8742,6 +9040,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Preview_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8767,6 +9066,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Scene_Preview_ZSD_Flash",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8792,6 +9092,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Video_1080",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8817,6 +9118,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901backsc800cslymipiraw_Video_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8842,6 +9144,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901frontsc201cslymipiraw_Scene_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8867,6 +9170,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901frontsc201cslymipiraw_Scene_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8892,6 +9196,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0901frontsc201cslymipiraw_Video_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8917,6 +9222,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_E2EHDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8942,6 +9248,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_E2EHDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8967,6 +9274,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Face_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -8992,6 +9300,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Flash_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9017,6 +9326,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_HDR_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9042,6 +9352,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_HDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9067,6 +9378,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_HDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9092,6 +9404,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_N3D_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9117,6 +9430,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_N3D_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9142,6 +9456,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_N3D_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9167,6 +9482,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_P1_YUV",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9192,6 +9508,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9217,6 +9534,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Capture_4cell",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9242,6 +9560,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9267,6 +9586,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Preview_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9292,6 +9612,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Scene_Preview_ZSD_Flash",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9317,6 +9638,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Video_1080",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9342,6 +9664,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902backhi846stmipiraw_Video_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9367,6 +9690,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Scene_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9392,6 +9716,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Scene_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9417,6 +9742,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0902frontc2599cxtmipiraw_Video_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9442,6 +9768,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_E2EHDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9467,6 +9794,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_E2EHDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9492,6 +9820,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Face_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9517,6 +9846,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Flash_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9542,6 +9872,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_HDR_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9567,6 +9898,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_HDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9592,6 +9924,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_HDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9617,6 +9950,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_N3D_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9642,6 +9976,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_N3D_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9667,6 +10002,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_N3D_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9692,6 +10028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_P1_YUV",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9717,6 +10054,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9742,6 +10080,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Capture_4cell",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9767,6 +10106,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9792,6 +10132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Preview_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9817,6 +10158,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Scene_Preview_ZSD_Flash",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9842,6 +10184,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Video_1080",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9867,6 +10210,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903backc8490xsjmipiraw_Video_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9892,6 +10236,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903frontbf2257xsjmipiraw_Scene_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9917,6 +10262,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903frontbf2257xsjmipiraw_Scene_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9942,6 +10288,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0903frontbf2257xsjmipiraw_Video_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9967,6 +10314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_E2EHDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -9992,6 +10340,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_E2EHDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10017,6 +10366,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Face_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10042,6 +10392,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Flash_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10067,6 +10418,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_HDR_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10092,6 +10444,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_HDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10117,6 +10470,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_HDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10142,6 +10496,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_N3D_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10167,6 +10522,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_N3D_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10192,6 +10548,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_N3D_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10217,6 +10574,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_P1_YUV",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10242,6 +10600,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Scene_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10267,6 +10626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Scene_Capture_4cell",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10292,6 +10652,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Scene_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10317,6 +10678,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Scene_Preview_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10342,6 +10704,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Scene_Preview_ZSD_Flash",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10367,6 +10730,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Video_1080",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10392,6 +10756,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc800csstmipiraw_Video_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10417,6 +10782,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_E2EHDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10442,6 +10808,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_E2EHDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10467,6 +10834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Face_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10492,6 +10860,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Flash_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10517,6 +10886,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_HDR_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10542,6 +10912,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_HDR_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10567,6 +10938,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_HDR_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10592,6 +10964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_N3D_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10617,6 +10990,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_N3D_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10642,6 +11016,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_N3D_Video",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10667,6 +11042,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_P1_YUV",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10692,6 +11068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10717,6 +11094,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Capture_4cell",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10742,6 +11120,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Preview",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10767,6 +11146,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Preview_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10792,6 +11172,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Scene_Preview_ZSD_Flash",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10817,6 +11198,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Video_1080",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10842,6 +11224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_a0904backsc820csstmipiraw_Video_4k",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10867,6 +11250,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDR",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10894,6 +11278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX230PdafLibrary",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10919,6 +11304,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX230PdafLibraryWrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10951,6 +11337,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX338PdafLibrary",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -10976,6 +11363,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX338PdafLibraryWrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11008,6 +11396,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX386PdafLibrary",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11033,6 +11422,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX386PdafLibraryWrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11065,6 +11455,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX519PdafLibrary",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11090,6 +11481,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX519PdafLibraryWrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11122,6 +11514,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaaa_ltm",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11147,6 +11540,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaaa_ltmx",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11171,6 +11565,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiawb_moon",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11199,6 +11594,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiawb_p1ggm",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11226,6 +11622,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiawb_sun",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11253,6 +11650,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaibc_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11277,6 +11675,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaibc_tuning_p2",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11301,6 +11700,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaibc_tuning_p3",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11325,6 +11725,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaidepth_tuning",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11349,6 +11750,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiselector",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11376,6 +11778,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.chdr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11407,6 +11810,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.feature_utils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11455,6 +11859,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.log",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11483,6 +11888,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.dng",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11517,6 +11923,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.lsctbl.50",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11548,6 +11955,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.nvram.50",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11586,6 +11994,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halsensor.hwintegration",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11612,6 +12021,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halsensor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11647,6 +12057,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.iopipe",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11694,6 +12105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.utils.sensorprovider",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11734,6 +12146,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.vhdr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11769,6 +12182,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.lsc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11798,6 +12212,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.platform2",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11828,6 +12243,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.rotate",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11854,6 +12270,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.vsf",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11880,6 +12297,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_isp",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11911,6 +12329,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_tuning_mgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11944,6 +12363,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_twin",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -11973,6 +12393,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.customae",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12004,6 +12425,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.customaf",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12034,6 +12456,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.customawb",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12063,6 +12486,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.customflk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12091,6 +12515,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.camera.3a",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12126,6 +12551,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.camera.isp",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12163,6 +12589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.camera.sensors",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12191,6 +12618,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.camera_exif",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12217,6 +12645,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.eis",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12251,6 +12680,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.flashlight",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12279,6 +12709,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.lens",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12305,6 +12736,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.plugin",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12335,6 +12767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12379,6 +12812,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdip_drv",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12408,6 +12842,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdip_postproc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12444,6 +12879,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpframework",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12485,6 +12921,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeffecthal.base",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12518,6 +12955,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature.face",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12559,6 +12997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature.stereo.provider",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12598,6 +13037,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature.vsdof.hal",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12645,6 +13085,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_3dnr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12682,6 +13123,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_eis",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12725,6 +13167,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_fsc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12761,6 +13204,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_lmv",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12803,6 +13247,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_rss",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12835,6 +13280,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeatureiodrv_mem",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12869,6 +13315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12898,6 +13345,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio_plat_drv",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12933,6 +13381,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio_plat_pipe",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12965,6 +13414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblpcnr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -12990,6 +13440,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmnl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13015,6 +13466,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmsnr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13040,6 +13492,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk_drvb",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13068,6 +13521,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.atmseventmgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13096,6 +13550,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.eventcallback",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13126,6 +13581,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13187,6 +13643,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.depthmap",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13246,6 +13703,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.streaming",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13314,6 +13772,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.vsdof_util",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13352,6 +13811,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.logicalmodule",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13386,6 +13846,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.core",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13418,6 +13879,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.customer",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13467,6 +13929,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13515,6 +13978,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13560,6 +14024,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_calibration_convertor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13588,6 +14053,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_calibration_provider",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13623,6 +14089,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_debugutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13652,6 +14119,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_app",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13694,6 +14162,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hal",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13736,6 +14205,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hidl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13780,6 +14250,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hidlutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13828,6 +14299,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_utils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13869,6 +14341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_devicesessionpolicy",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13905,6 +14378,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_diputils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13932,6 +14406,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_exif",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13964,6 +14439,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_fdvt",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -13996,6 +14472,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_featurepolicy",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14043,6 +14520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_featureutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14079,6 +14557,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_grallocutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14120,6 +14599,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_hwnode",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14202,6 +14682,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_hwutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14246,6 +14727,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_imem",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14279,6 +14761,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_imgbuf",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14320,6 +14803,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_mapping_mgr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14361,6 +14845,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_metadata",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14395,6 +14880,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_metastore",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14431,6 +14917,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_mfb",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14463,6 +14950,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_custom",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14492,6 +14980,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_utils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14522,6 +15011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulehelper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14549,6 +15039,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_owe",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14577,6 +15068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipeline",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14616,6 +15108,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipeline_fbm",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14650,6 +15143,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14691,6 +15185,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_adapter",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14725,6 +15220,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_capture",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14762,6 +15258,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_isp",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14807,6 +15304,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_session",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14856,6 +15354,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_utils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14905,6 +15404,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_zsl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14942,6 +15442,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-security",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -14978,6 +15479,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-smvr",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15014,6 +15516,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15058,6 +15561,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy_factory",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15096,6 +15600,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_prerelease",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15130,6 +15635,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_rsc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15161,6 +15667,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_scenariorecorder",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15192,6 +15699,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_stdutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15224,6 +15732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_streamutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15258,6 +15767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_synchelper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15295,6 +15805,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_sysutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15333,6 +15844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_tuning_utils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15367,6 +15879,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_ulog",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15398,6 +15911,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuralnetworks_sl_driver_mtk_prebuilt",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15427,6 +15941,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuron_adapter_mgvi",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15454,6 +15969,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuron_runtime.5",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15480,6 +15996,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnir_neon_driver",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15506,6 +16023,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpq_cust_base",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15531,6 +16049,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpq_prot",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15558,6 +16077,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpqparamparser",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15593,6 +16113,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstereoinfoaccessor_vsdof",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15624,6 +16145,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvainr_model",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15648,6 +16170,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.grip",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15675,6 +16198,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.apusys@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15703,6 +16227,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.apusys@2.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15732,6 +16257,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.hmp@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15760,6 +16286,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.utils@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15788,6 +16315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.audio@7.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15820,6 +16348,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.bluetooth.audio@2.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15850,6 +16379,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.bluetooth.audio@2.2",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15881,6 +16411,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.atms@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15909,6 +16440,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.ccap@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15937,6 +16469,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.frhandler@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -15970,6 +16503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16000,6 +16534,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16031,6 +16566,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.postproc@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16059,6 +16595,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.security@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16088,6 +16625,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.composer_ext@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16116,6 +16654,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mmagent@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16144,6 +16683,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mmagent@1.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16173,6 +16713,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16201,6 +16742,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16230,6 +16772,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.2",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16260,6 +16803,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.3",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16291,6 +16835,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.4",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16323,6 +16868,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.5",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16356,6 +16902,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.6",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16390,6 +16937,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mtkradioex@3.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16424,6 +16972,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.netdagent@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16452,6 +17001,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16480,6 +17030,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent@1.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16509,6 +17060,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent@1.2",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16539,6 +17091,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16567,6 +17120,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16596,6 +17150,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power@1.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16625,6 +17180,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16656,6 +17212,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16684,6 +17241,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16713,6 +17271,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.10",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16751,6 +17310,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.11",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16790,6 +17350,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.12",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16830,6 +17391,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.13",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16871,6 +17433,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.14",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16913,6 +17476,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.15",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16956,6 +17520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.2",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -16986,6 +17551,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.3",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17017,6 +17583,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.4",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17049,6 +17616,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.5",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17082,6 +17650,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.6",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17116,6 +17685,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.7",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17151,6 +17721,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.8",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17187,6 +17758,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.9",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17224,6 +17796,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony@1.0_vendor",
+    check_elf_files: false,
     stem: "vendor.mediatek.hardware.videotelephony@1.0",
     owner: "samsung",
     strip: {
@@ -17253,6 +17826,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.frameworks.security.dsms-V1-ndk_platform",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17278,6 +17852,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.bluetooth@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17307,6 +17882,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.gnss@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17335,6 +17911,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.miscpower@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17363,6 +17940,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17388,6 +17966,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.bridge-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17414,6 +17993,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.bridge@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17443,6 +18023,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.bridge@2.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17473,6 +18054,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.channel@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17501,6 +18083,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17534,6 +18117,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio@2.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17568,6 +18152,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio@2.2",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17603,6 +18188,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.security.vaultkeeper@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17631,6 +18217,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.thermal@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17661,6 +18248,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcomutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17692,6 +18280,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsma",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17716,7 +18305,6 @@ cc_prebuilt_library_shared {
                 "libcomutils",
                 "liblog",
                 "libsignal",
-                "libsink-mtk",
                 "libnetd_client",
                 "libc++",
                 "libc",
@@ -17732,6 +18320,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsma_adapt",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17757,6 +18346,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsma_rtp",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17792,6 +18382,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsma_socketwrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17824,6 +18415,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk_vt_service",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17870,6 +18462,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk_vt_wrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17910,6 +18503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsignal",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17938,6 +18532,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsink-mtk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -17972,12 +18567,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
-    overrides: ["libsink"],
-    visibility: ["//visibility:public"],
 }
 
 cc_prebuilt_library_shared {
     name: "libsource",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -18017,6 +18611,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodec_cap",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -18052,6 +18647,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodec_capenc",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -18078,6 +18674,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvt_avsync",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -18106,6 +18703,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -18133,6 +18731,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -18508,6 +19107,7 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
+    allow_undefined_symbols: true,
     strip: {
         none: true,
     },
@@ -18820,6 +19420,7 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
+    allow_undefined_symbols: true,
     strip: {
         none: true,
     },
@@ -19030,6 +19631,7 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
+    allow_undefined_symbols: true,
     strip: {
         none: true,
     },
