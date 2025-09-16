@@ -1,0 +1,9 @@
+prebuilt_etc {
+    name: "vendor_dlkm_prebuilt_modules",
+    owner: "samsung",
+    soc_specific: true,
+    srcs: [
+        "lib/modules/**/*.ko",
+    ],
+    relative_install_path: "lib/modules",
+}
